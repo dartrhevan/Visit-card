@@ -17,4 +17,6 @@
     <string name="interests">Мои интересы</string>
     <string name="plans">Планы на будущее</string>
     <string name="contacts">Контакты</string>
+    <string name="full_name">ФИО:\nСатункин\nВладимир\nВитальевич</string>
+    <string name="about_text">Студент бакалавриата, увлекающийся программированием, подробности далее...</string>
 </resources>
