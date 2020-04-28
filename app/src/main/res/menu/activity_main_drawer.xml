@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_study"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/study" />
+
+        <item
+            android:id="@+id/nav_interests"
+            android:icon="@drawable/ic_web_black_24dp"
+            android:title="@string/interests" />
+
+        <item
+            android:id="@+id/nav_plans"
+            android:icon="@drawable/ic_keyboard_capslock_black_24dp"
+            android:title="@string/plans" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:title="@string/contacts" />
+    </group>
+</menu>
