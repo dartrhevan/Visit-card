@@ -40,7 +40,7 @@
         <Constraint
             android:id="@+id/study_text"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="250dp"
             motion:layout_goneMarginBottom="50dp"
             motion:layout_constraintBottom_toBottomOf="parent"  />
         <!--<CustomAttribute
