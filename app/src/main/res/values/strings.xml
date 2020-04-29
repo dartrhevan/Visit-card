@@ -19,4 +19,5 @@
     <string name="contacts">Контакты</string>
     <string name="full_name">ФИО:\nСатункин\nВладимир\nВитальевич</string>
     <string name="about_text">Студент бакалавриата, увлекающийся программированием, подробности далее...</string>
+    <string name="urfu">Уральский Фудуральный Университет (УрФУ)</string>
 </resources>
