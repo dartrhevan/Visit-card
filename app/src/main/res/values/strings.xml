@@ -24,6 +24,12 @@
     <string name="study_text">Институт (факультет): Институт радиоэлектроники и информационных технолоий ИРИТ-РТФ\nНаправление: 09.03.02 Информационные системы и технологии в приборостроении и телекоммуникациях</string>
     <string name="interest_header">Мои профессиональные интересы</string>
     <string name="interest_text_1">Я люблю программирование и интересуюсь следующими направлениями:</string>
+    <string name="languages">Языки программирования, которые я знаю/изучал/изучаю</string>
+    <string name="ccharp">C#</string>
+    <string name="java">Java</string>
+    <string name="js">JS</string>
+    <string name="c">C++</string>
+    <string name="sql">SQL</string>
     <!--<string-array name="interests_list">
         <item>Android разработка</item>
         <item>Backend разработка</item>

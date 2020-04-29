@@ -1,7 +1,10 @@
 package com.maynorcourse.mybusinesscard
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -49,5 +52,19 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+
+    fun onCardClicked(view: View) {
+        val address = Uri.parse(when(view.id) {
+            R.id.csharp -> "https://ru.wikipedia.org/wiki/C_Sharp"
+            R.id.java -> "https://ru.wikipedia.org/wiki/Java"
+            R.id.js -> "https://ru.wikipedia.org/wiki/JavaScript"
+            R.id.c -> "https://ru.wikipedia.org/wiki/C%2B%2B"
+            R.id.sql -> "https://ru.wikipedia.org/wiki/SQL"
+            else -> "ya.ru"
+        })
+        val openLinkIntent = Intent(Intent.ACTION_VIEW, address)
+        startActivity(openLinkIntent)
     }
 }

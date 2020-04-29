@@ -1,14 +1,15 @@
 package com.maynorcourse.mybusinesscard.items
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.maynorcourse.mybusinesscard.Interest
 import com.maynorcourse.mybusinesscard.InterestAdapter
-
 import com.maynorcourse.mybusinesscard.R
 
 /**
@@ -25,8 +26,6 @@ class InterestsFragment : Fragment() {
                 Interest("Backend разработка", R.drawable.ic_settings_black_24dp),
                 Interest("Frontend разработка", R.drawable.ic_chrome_reader_mode_black_24dp)
         ))
-
         return root
     }
-
 }
