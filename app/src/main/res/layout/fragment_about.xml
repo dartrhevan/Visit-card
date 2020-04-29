@@ -4,6 +4,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".items.AboutFragment"
+    android:background="@drawable/background"
 android:columnCount="2"
 android:rowCount="5">
 
@@ -26,6 +27,7 @@ android:rowCount="5">
     android:layout_gravity="center_horizontal"
     android:text="@string/about_text"
     android:textSize="25sp"
+    android:textAlignment="center"
     android:layout_columnSpan="2"
     android:layout_rowSpan="2"/>
 </GridLayout>

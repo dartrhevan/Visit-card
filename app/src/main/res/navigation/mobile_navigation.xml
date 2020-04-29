@@ -21,9 +21,9 @@
 
     <fragment
         android:id="@+id/nav_interests"
-        android:name="com.maynorcourse.mybusinesscard.items.InerestsFragment"
+        android:name="com.maynorcourse.mybusinesscard.items.InterestsFragment"
         android:label="@string/interests"
-        tools:layout="@layout/fragment_inerests" />
+        tools:layout="@layout/fragment_interests" />
 
     <fragment
         android:id="@+id/nav_plans"

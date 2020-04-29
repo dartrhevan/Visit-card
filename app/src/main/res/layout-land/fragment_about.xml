@@ -8,6 +8,7 @@
     tools:context=".items.AboutFragment"
     android:columnCount="2"
     android:gravity="center"
+    android:background="@drawable/background"
     android:rowCount="5">
 
     <ImageView

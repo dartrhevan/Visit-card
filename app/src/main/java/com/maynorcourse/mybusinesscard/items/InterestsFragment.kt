@@ -11,14 +11,14 @@ import com.maynorcourse.mybusinesscard.R
 /**
  * A simple [Fragment] subclass.
  */
-class InerestsFragment : Fragment() {
+class InterestsFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_inerests, container, false)
+        return inflater.inflate(R.layout.fragment_interests, container, false)
     }
 
 }

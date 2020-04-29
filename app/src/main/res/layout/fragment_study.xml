@@ -37,20 +37,19 @@
         android:orientation="vertical"
         android:id="@+id/study_text"
         android:layout_width="64dp"
-        android:layout_height="match_parent"
-        android:text="Button" >
+        android:layout_height="match_parent">
         <TextView
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Подробнее"
+            android:text="@string/more"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="20sp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="Институт (факультет): Институт радиоэлектроники и информационных технолоий ИРИТ-РТФ\nНаправление: 09.03.02 Информационные системы и технологии в приборостроении и телекоммуникациях"
+            android:text="@string/study_text"
             android:textSize="18sp"/>
     </LinearLayout>
 
