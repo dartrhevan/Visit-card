@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"/>
     <LinearLayout
 
-        android:background="@drawable/background"
+        android:background="#99B5B5B5"
         android:orientation="vertical"
         android:id="@+id/study_text"
         android:layout_width="64dp"
