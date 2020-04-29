@@ -7,20 +7,21 @@ tools:context=".items.AboutFragment"
 android:columnCount="2"
 android:rowCount="5">
 
-<ImageView
-    android:layout_width="230dp"
-    android:layout_height="350dp"
-    android:layout_gravity="left"
-    android:layout_rowSpan="3"
-    android:layout_columnSpan="1"
-    android:id="@+id/avatar"/>
-<TextView
-    android:layout_gravity="left"
-    android:text="@string/full_name"
-    android:textAllCaps="true"
-    android:textSize="20sp"
-    android:textStyle="bold"
-    android:layout_rowSpan="3"/>
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="230dp"
+        android:layout_height="350dp"
+        android:layout_rowSpan="3"
+        android:layout_columnSpan="1"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_rowSpan="3"
+        android:layout_gravity="left"
+        android:text="@string/full_name"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 <TextView
     android:layout_gravity="center_horizontal"
     android:text="@string/about_text"
