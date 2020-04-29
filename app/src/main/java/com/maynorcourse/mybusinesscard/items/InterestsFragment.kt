@@ -3,9 +3,11 @@ package com.maynorcourse.mybusinesscard.items
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.maynorcourse.mybusinesscard.Interest
@@ -26,6 +28,7 @@ class InterestsFragment : Fragment() {
                 Interest("Backend разработка", R.drawable.ic_settings_black_24dp),
                 Interest("Frontend разработка", R.drawable.ic_chrome_reader_mode_black_24dp)
         ))
+        root.findViewById<TextView>(R.id.github_link).movementMethod = LinkMovementMethod.getInstance()
         return root
     }
 }

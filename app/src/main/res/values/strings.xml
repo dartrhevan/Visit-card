@@ -30,6 +30,7 @@
     <string name="js">JS</string>
     <string name="c">C++</string>
     <string name="sql">SQL</string>
+    <string name="github_link"><a href='https://github.com/dartrhevan'>Здесь вы можете посмотреть примеры моих программ на эти и не только языках</a></string>
     <!--<string-array name="interests_list">
         <item>Android разработка</item>
         <item>Backend разработка</item>
