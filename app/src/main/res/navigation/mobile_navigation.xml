@@ -34,7 +34,7 @@
     <fragment
         android:id="@+id/nav_contacts"
         android:label="@string/contacts"
-        android:name="com.maynorcourse.mybusinesscard.items.PlansFragment"
-        tools:layout="@layout/fragment_plans"/>
+        android:name="com.maynorcourse.mybusinesscard.items.ContactsFragment"
+        tools:layout="@layout/fragment_contacts"/>
 
 </navigation>

@@ -19,7 +19,7 @@ android:rowCount="5">
     <TextView
         android:layout_rowSpan="3"
         android:layout_gravity="left"
-        android:text="@string/full_name"
+        android:text="@string/about_label"
         android:textAllCaps="true"
         android:textSize="20sp"
         android:textStyle="bold" />

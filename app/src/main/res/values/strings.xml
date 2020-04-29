@@ -17,20 +17,23 @@
     <string name="interests">Мои интересы</string>
     <string name="plans">Планы на будущее</string>
     <string name="contacts">Контакты</string>
-    <string name="full_name">ФИО:\nСатункин\nВладимир\nВитальевич</string>
+    <string name="about_label">ФИО:\nСатункин\nВладимир\nВитальевич\n20 лет\nЕкатеринбург</string>
     <string name="about_text">Студент бакалавриата, увлекающийся программированием, подробности далее…</string>
     <string name="urfu">Уральский Фудуральный Университет (УрФУ)</string>
     <string name="more">Подробнее</string>
     <string name="study_text">Институт (факультет): Институт радиоэлектроники и информационных технолоий ИРИТ-РТФ\nНаправление: 09.03.02 Информационные системы и технологии в приборостроении и телекоммуникациях</string>
     <string name="interest_header">Мои профессиональные интересы</string>
     <string name="interest_text_1">Я люблю программирование и интересуюсь следующими направлениями:</string>
-    <string name="languages">Языки программирования, которые я знаю/изучал/изучаю</string>
+    <string name="languages">Языки программирования, которыми я владею</string>
     <string name="ccharp">C#</string>
     <string name="java">Java</string>
     <string name="js">JS</string>
     <string name="c">C++</string>
     <string name="sql">SQL</string>
-    <string name="github_link"><a href='https://github.com/dartrhevan'>Здесь вы можете посмотреть примеры моих программ на эти и не только языках</a></string>
+    <string name="github_link"><a href='https://github.com/dartrhevan'>Здесь вы можете посмотреть примеры моих программ на этих и не только языках</a></string>
+    <string name="plans_text">Чётких планов уменя пока нет: скорее всего продолжу обучение, здорово, если получиться подрабатывать по ходу, а ещё хотелось бы попасть на стажировку в Яндекс...</string>
+    <string name="question">\?</string>
+    <string name="contacts_text">Если вам понравилось данное приложение или заинтересовали навыки, которые я здесь упомянул, либо один из моих проектов, вот моя электронная почта: vovasatunkin@gmail.com\nИ на всякий случай ещё раз ссылка на GitHub:</string>
     <!--<string-array name="interests_list">
         <item>Android разработка</item>
         <item>Backend разработка</item>

@@ -67,4 +67,9 @@ class MainActivity : AppCompatActivity() {
         val openLinkIntent = Intent(Intent.ACTION_VIEW, address)
         startActivity(openLinkIntent)
     }
+
+    fun openGitHub(view: View) {
+        val openLinkIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/dartrhevan"))
+        startActivity(openLinkIntent)
+    }
 }
