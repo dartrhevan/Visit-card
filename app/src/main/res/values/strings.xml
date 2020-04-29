@@ -34,6 +34,8 @@
     <string name="plans_text">Чётких планов уменя пока нет: скорее всего продолжу обучение, здорово, если получиться подрабатывать по ходу, а ещё хотелось бы попасть на стажировку в Яндекс...</string>
     <string name="question">\?</string>
     <string name="contacts_text">Если вам понравилось данное приложение или заинтересовали навыки, которые я здесь упомянул, либо один из моих проектов, вот моя электронная почта: vovasatunkin@gmail.com\nИ на всякий случай ещё раз ссылка на GitHub:</string>
+    <string name="name">Сатункин Владимир</string>
+    <string name="email">vovasatunkin@gmail.com</string>
     <!--<string-array name="interests_list">
         <item>Android разработка</item>
         <item>Backend разработка</item>

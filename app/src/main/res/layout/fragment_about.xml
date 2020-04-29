@@ -21,7 +21,7 @@ android:rowCount="5">
         android:layout_gravity="left"
         android:text="@string/about_label"
         android:textAllCaps="true"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 <TextView
     android:layout_gravity="center_horizontal"
