@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background"
     android:orientation="vertical"
     android:gravity="center_horizontal"
@@ -20,9 +21,10 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="@string/interest_text_1"/>
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/interests_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/interests_list"/>
+        app:layoutManager="LinearLayoutManager"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

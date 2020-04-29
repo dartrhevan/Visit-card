@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 
-class InterestList : RecyclerView.Adapter<InterestList.ViewHolder> {
+class InterestAdapter : RecyclerView.Adapter<InterestAdapter.ViewHolder> {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
